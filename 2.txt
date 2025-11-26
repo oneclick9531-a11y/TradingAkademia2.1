@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пътят на трейдъра</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f4f6f9; color:#1a1a1a; }
+    header { background:#0b3d91; color:white; text-align:center; padding:50px 20px; }
+    header h1 { margin:0; font-size:36px; }
+    header p { font-size:18px; max-width:700px; margin:10px auto 0; }
+    .container { max-width:900px; margin:40px auto; padding:0 20px; }
+    .section { background:white; padding:30px; border-radius:10px; margin-bottom:30px; box-shadow:0 4px 12px rgba(0,0,0,0.08); }
+    h2 { color:#0b3d91; font-size:24px; margin-top:0; }
+    .benefits { list-style:none; padding-left:0; }
+    .benefits li { margin-bottom:10px; padding-left:15px; position:relative; }
+    .benefits li:before { content:'✓'; position:absolute; left:0; color:#0b3d91; }
+    .price-box { text-align:center; font-size:22px; font-weight:bold; background:#e6eefc; padding:20px; border-radius:10px; margin-bottom:20px; border:2px solid #0b3d91; }
+    .btn-buy { display:inline-block; padding:15px 30px; background:#0b3d91; color:white; text-decoration:none; font-size:20px; border-radius:8px; transition:0.2s; font-weight:bold; }
+    .btn-buy:hover { background:#072d6b; transform:translateY(-2px); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Пътят на трейдъра</h1>
+  <p>Пълен комплект: книга, курс, стратегия, таблици и бонуси – всичко, което ти трябва, за да стартираш правилно.</p>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Какво представлява този продукт</h2>
+    <ul class="benefits">
+      <li>Психология и дисциплина за успешен трейдинг</li>
+      <li>Видео курс: как да започнеш и първата сделка</li>
+      <li>Основи на техническия анализ</li>
+      <li>Работеща стратегия за начинаещи</li>
+      <li>Таблица за следене на резултатите</li>
+      <li>Бонус: 2 платформи за бектестинг</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Цена</h2>
+    <div class="price-box">59.90 лв / 30.63 €</div>
+    <!-- Замени със своя Shopify Checkout линк -->
+    <a href="YOUR_SHOPIFY_CHECKOUT_LINK_HERE" class="btn-buy">Купи сега</a>
+  </div>
+
+</div>
+
+</body>
+</html>
